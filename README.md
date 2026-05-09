@@ -88,16 +88,5 @@ Go to the **UPLOAD** tab to migrate data.
 
 ---
 
-## 🛠️ Building the `.exe` yourself
-
-We use [Bun](https://bun.sh/) to compile the source code into a lightning-fast executable. If you make changes to the code and want to build your own `.exe`:
-
-```bash
-# Ensure Bun is installed
-bun build ./index.js --compile --minify --outfile mongo-extract.exe
-```
-
----
-
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/alaaelbana/mongo-extract/issues).
